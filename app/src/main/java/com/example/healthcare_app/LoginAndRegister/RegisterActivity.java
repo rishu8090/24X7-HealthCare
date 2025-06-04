@@ -1,4 +1,4 @@
-package com.example.healthcare_app;
+package com.example.healthcare_app.LoginAndRegister;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.healthcare_app.Databases.Database;
+import com.example.healthcare_app.R;
 
 public class RegisterActivity extends AppCompatActivity {
     EditText edUsername,edEmail,edPassword,edConfirm;

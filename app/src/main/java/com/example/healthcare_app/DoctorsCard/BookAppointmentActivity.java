@@ -1,4 +1,4 @@
-package com.example.healthcare_app;
+package com.example.healthcare_app.DoctorsCard;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
@@ -8,7 +8,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CalendarView;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -16,11 +15,14 @@ import android.widget.TimePicker;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.healthcare_app.Databases.Database;
+import com.example.healthcare_app.LoginAndRegister.HomeActivity;
+import com.example.healthcare_app.R;
 
 import java.util.Calendar;
 

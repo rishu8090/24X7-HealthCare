@@ -1,21 +1,25 @@
-package com.example.healthcare_app;
+package com.example.healthcare_app.LoginAndRegister;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.healthcare_app.medicineCard.BuyMedicineActivity;
+import com.example.healthcare_app.DoctorsCard.FindDoctorActivity;
+import com.example.healthcare_app.HealthActivityCard.HealthArticlesActivity;
+import com.example.healthcare_app.LabTestCard.LabTestActivity;
+import com.example.healthcare_app.CartAndOrderCard.OrderDetailsActivity;
+import com.example.healthcare_app.R;
 
 public class HomeActivity extends AppCompatActivity {
 

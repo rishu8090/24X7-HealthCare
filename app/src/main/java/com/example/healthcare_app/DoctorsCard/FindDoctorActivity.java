@@ -1,4 +1,4 @@
-package com.example.healthcare_app;
+package com.example.healthcare_app.DoctorsCard;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import androidx.cardview.widget.CardView;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.healthcare_app.LoginAndRegister.HomeActivity;
+import com.example.healthcare_app.R;
 
 public class FindDoctorActivity extends AppCompatActivity {
 

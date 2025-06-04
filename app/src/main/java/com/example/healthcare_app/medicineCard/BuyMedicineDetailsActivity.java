@@ -1,4 +1,4 @@
-package com.example.healthcare_app;
+package com.example.healthcare_app.medicineCard;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +15,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.healthcare_app.Databases.Database;
+import com.example.healthcare_app.R;
 
 public class BuyMedicineDetailsActivity extends AppCompatActivity {
 

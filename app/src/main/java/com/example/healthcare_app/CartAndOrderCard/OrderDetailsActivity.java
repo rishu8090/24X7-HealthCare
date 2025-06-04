@@ -1,4 +1,4 @@
-package com.example.healthcare_app;
+package com.example.healthcare_app.CartAndOrderCard;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,7 +15,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import java.lang.reflect.Array;
+import com.example.healthcare_app.Databases.Database;
+import com.example.healthcare_app.LoginAndRegister.HomeActivity;
+import com.example.healthcare_app.R;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
