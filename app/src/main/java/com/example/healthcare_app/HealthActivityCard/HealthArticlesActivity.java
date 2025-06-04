@@ -40,7 +40,7 @@ public class HealthArticlesActivity extends AppCompatActivity {
     };
 
     HashMap<String,String> item;
-    ArrayList list;  //
+    ArrayList list;
     SimpleAdapter SA;
     Button btnBack;
     ListView listView;
